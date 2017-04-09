@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{d3704a33-49a3-4d0e-9918-33bdb3042468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{a1af53c2-40b9-42f2-994f-7746de27f98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defines">
+      <UniqueIdentifier>{53deff1a-adc3-4ce9-9246-260684c6255b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Main">
+      <UniqueIdentifier>{fc299b8b-d141-4345-8590-80f19536d09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Main">
+      <UniqueIdentifier>{f9eb79d4-6e84-4634-8133-ec7d3135d222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Systems">
+      <UniqueIdentifier>{a6d29978-d739-47d3-b205-ef9436e2dd1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Systems">
+      <UniqueIdentifier>{189cfd61-c593-48a5-91b0-d3b1609a79ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defines\Context">
+      <UniqueIdentifier>{271a5132-ea90-4d61-b11c-69478c33c991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Objects">
+      <UniqueIdentifier>{bb657bb6-8f0c-4934-a8c3-22620a10e038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Objects">
+      <UniqueIdentifier>{653edeef-be12-4705-b027-4eb2c370eb73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files\Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="USystem.cpp">
+      <Filter>Source Files\Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Core\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="UObject.cpp">
+      <Filter>Source Files\Core\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Core\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iostream.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteMacros.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMain.h">
+      <Filter>Header Files\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="USystem.h">
+      <Filter>Header Files\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>Header Files\Defines\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="UObject.h">
+      <Filter>Header Files\Core\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
